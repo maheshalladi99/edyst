@@ -1,0 +1,12 @@
+struct Solution {
+  void Met(int n) {
+    string one[10]={"eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
+    string two[10]={"ten","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"};
+    string three[10]={"one","two","three","four","five","six","seven","eight","nine"};
+    string su="";
+    if(n>19||n%10==0)su=two[n/10-1];
+    else if(n<20)su=one[n-11];
+    if(n%10!=0&&n>=20)su=su+"-"+three[n%10-1];
+    cout<<su<<endl;
+  }
+};
