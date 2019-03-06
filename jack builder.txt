@@ -1,0 +1,15 @@
+struct Solution {
+  void Met(int target, int big_bricks, int small_bricks) {
+      /* write your solution here */
+       if((5*big_bricks) >= target || (1*small_bricks) >= target)
+      {
+          cout<<"Possible";
+          cout<<"\n";
+      }
+      else
+      {
+          cout<<"Impossible";
+          cout<<"\n";
+      }
+  }
+};
