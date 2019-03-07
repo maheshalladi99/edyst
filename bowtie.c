@@ -17,5 +17,7 @@ struct Solution {
          cout<<"*";
          cout<<endl;
          }
+    
+    
   }
 };
