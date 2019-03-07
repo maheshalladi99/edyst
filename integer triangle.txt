@@ -1,0 +1,19 @@
+struct Solution {
+  void Met(int N) {
+      /* write your solution here */
+      int k=N*(N+1)/2;
+      int l=N-1;
+      for(int i=N;i>0;i--){int k1=k;int l1=l;
+      for(int j=0;j<=N-i;j++)
+      {if(k1<=9)
+      cout<<"0";
+      if(j==N-i)
+      cout<<k1;
+      else
+          cout<<k1<<".";
+          k1-=l1--;}
+          k--;cout<<endl;
+          }
+          
+  }
+};
