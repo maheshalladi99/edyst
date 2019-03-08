@@ -1,0 +1,17 @@
+class Solution {
+  public static void Met(int[][] arr) {
+      /* write your solution here */
+      int i=0,j=0,k,p=0,q=0;
+      int m=arr.length,n=arr[0].length;
+      boolean ri=true,ci=false,rd=false,cd=false;
+      boolean set1=false,set2=false,set3=false,set4=false;
+      for(k=1;k<=arr.length*arr[0].length;k++)
+      {
+          if(ri && j<n){System.out.print(arr[i][j]+" ");set1=true;j++;}else if(set1){ri=false;ci=true;set1=false;j--;i++;}
+          if(ci && i<m){System.out.print(arr[i][j]+" ");set2=true;i++;}else if(set2){ci=false;rd=true;set2=false;i--;j--;}
+          if(rd && j>=p){System.out.print(arr[i][j]+" ");set3=true;j--;}else if(set3){rd=false;cd=true;set3=false;j++;;i--;}
+          if(cd && i>q){System.out.print(arr[i][j]+" ");set4=true;i--;}else if(set4){cd=false;ri=true;set4=false;p++;q++;m--;n--;i++;j++;k--;}
+      }
+      System.out.println();
+  }
+}
