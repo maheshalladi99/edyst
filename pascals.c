@@ -19,5 +19,5 @@ struct Solution {
         cout<<"\n";
     }
 
-  }nwkdcwnmkjnjc
+  }
 };
