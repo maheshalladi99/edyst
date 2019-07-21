@@ -1,6 +1,6 @@
 struct Solution {
   void Met(int rows) {
-      /* write your solution here */
+
        int coef = 1, space, i, j;
      for(i=0; i<rows; i++)
      {     
