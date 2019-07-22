@@ -5,3 +5,5 @@ class Solution:
         t=list(set(k1));
         t.sort();
         print(t[k-1])
+            
+            
