@@ -1,7 +1,7 @@
 struct Solution {
   void Met(int rows) {
 
-       int coef = 1, space, i, j;
+     int coef = 1, space, i, j;
      for(i=0; i<rows; i++)
      {     
      for(space=1; space <= rows-i; space++)
