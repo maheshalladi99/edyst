@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int wicket=0,score=0,player[2]={1,2},k=3,ball=0,i,j,b,s,temp;
+	int wicket=0,score=0,player[2]= {1,2},k=3,ball=0,i,j,b,s,temp;
 	char str1,str2;
 
 	printf("total number of balls    : ");
