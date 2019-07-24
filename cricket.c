@@ -95,7 +95,7 @@ void main()
 
 			}
 			break;
-			default:printf("invalied score\n");
+			default:printf(" invalied score\n");
 			break;
 		}
 
