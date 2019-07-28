@@ -16,6 +16,7 @@ class Solution {
     {
       s="";
       d=(int)s1.charAt(j)-48;
+      
       for(i=0;i<a[d];i++)
       {
         s=s+"x";
