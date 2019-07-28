@@ -7,7 +7,8 @@ class Solution {
   int i,j=1,d;
   String s="",s1=Integer.toString(n);
   if(n==0)
-  	System.out.println("xx0");
+  	
+    System.out.println("xx0");
   else
   {
     for(j=0;j<s1.length();j++)
