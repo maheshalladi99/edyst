@@ -4,7 +4,8 @@ struct Solution {
       int i,j,k=2*N+1,h;
       for(i=0;i<k;i++)
       { 
-          h=i;
+
+          h=i ;
         if(i>N)
             h=k-i-1;
         for(j=0;j<h+1;j++)
