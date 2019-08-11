@@ -10,6 +10,8 @@ struct Solution {
             h=k-i-1;
         for(j=0;j<h+1;j++)
             cout<<"*";
+
+
         for(j=0;j<(k-2*h-2);j++)
             cout<<".";
          if(i==N)
