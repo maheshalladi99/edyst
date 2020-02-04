@@ -1,6 +1,6 @@
 struct Solution {
   void Met(int N) {
-      /* write your solution here */
+      /* ere */
       int i,j,k=2*N+1,h;
       for(i=0;i<k;i++)
       { 
