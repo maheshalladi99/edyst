@@ -19,6 +19,12 @@ struct Solution {
          for(j=0;j<h+1;j++)
          cout<<"*";
          cout<<endl;
+        
+        
          }
   }
 };
+
+
+
+
